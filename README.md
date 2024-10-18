@@ -1,53 +1,16 @@
-Local Setup process:
-
 In Admin panel: 
 admin@gmail.com 
 <br>
 password: 12345
-# Process 1 ---->>
+# iTechAvenue - A brief description
 
-## Step1:
-
-
-Activate the envoirnment:
-
-Try any of these below - 
-<br>
-i)  source xenon\Scripts\activate
-<br>
-ii)  .xenon\Scripts\activated
-<br>
-iii)  .xenon\Scripts\python
+iTechAvenue is a fully functional e-commerce platform specializing in the sale of Apple products. It is built using React.js for the frontend and Django for the backend, delivering a seamless and dynamic user experience
 <br>
 
-step3:
-python manage.py runserver
-
-
-
-create a virtual envoirnment in python:
-NOTE: if your envoirnment not creating by below code it means you dont have venv , so intall that - 
-<br>
-create venv - python -m venv myenv
-
-
-
-Activate the envoirnment:
-Try any of these below - 
-<br>
-i)  .myenv\Scripts\activated
-<br>
-ii)  .myenv\Scripts\python
-<br>
-iii)  source myenv\Scripts\activate
-
-## step4:
-
-cd Online-Fish-Market-Website
-<br>
-pip install -r requirements.txt
-<br>
-python manage.py runserver
-
------ THATS ALL THE PROJECT IS RUNNING -----
+## Key Features:
+- User authentication (Login/Signup)
+- Browse and search Apple product catalog
+- Add products to the cart and wishlist
+- Secure checkout process
+- Real-time updates between frontend and backend
 
